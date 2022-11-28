@@ -10,4 +10,5 @@ tableextension 50000 "Cliente Extendido" extends Customer
         }
     }
     //un comentario
+    //otro comentario
 }
