@@ -6,7 +6,7 @@ tableextension 50000 "Cliente Extendido" extends Customer
         {
             TableRelation = Item."No.";
             ValidateTableRelation = true;
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
         }
     }
 }
