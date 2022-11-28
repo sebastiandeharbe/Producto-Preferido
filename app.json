@@ -1,0 +1,30 @@
+{
+  "id": "c832609f-9961-468a-9694-66d85e9879b4",
+  "name": "Producto Preferido",
+  "publisher": "Sebastest",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "./ExtensionImage.png",
+  "dependencies": [
+
+  ],
+  "screenshots": [],
+  "platform": "20.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50050
+    }
+  ],
+  "showMyCode": true,
+  "runtime": "6.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
