@@ -9,4 +9,5 @@ tableextension 50000 "Cliente Extendido" extends Customer
             DataClassification = ToBeClassified;
         }
     }
+    //un comentario
 }
