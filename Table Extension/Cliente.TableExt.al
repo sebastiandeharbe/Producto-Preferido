@@ -10,10 +10,14 @@ tableextension 50000 "Cliente Extendido" extends Customer
 
             trigger OnValidate()
             var
-                RecItem: Record Item;
+            // RecItem: Record Item;
             begin
-                RecItem.Get(Rec."Producto Preferido");
-                Message('Se añadió un Producto Preferido');
+                // RecItem.Get(Rec."Producto Preferido");
+                // Message('Se añadió un Producto Preferido');
+
+                if xRec."Producto Preferido" <> Rec."Producto Preferido" then
+                    if Confirm('¿Desea confirmar el Nuevo Producto Preferido?') then
+                        Message('Se añadió un Producto Preferido');
             end;
         }
     }
