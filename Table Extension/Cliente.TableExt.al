@@ -9,8 +9,11 @@ tableextension 50000 "Cliente Extendido" extends Customer
             DataClassification = CustomerContent;
 
             trigger OnValidate()
+            var
+                RecItem: Record Item;
             begin
-                Message('Este es un mensaje que rompe tus tests jeje');
+                RecItem.Get(Rec."Producto Preferido");
+                Message('El Producto Preferido del Cliente %1 es %2', Rec.Name, RecItem.Description);
             end;
         }
     }
