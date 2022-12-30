@@ -1,71 +1,80 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="en-US" original="Producto Preferido">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="Producto Preferido">
     <body>
       <group id="body">
         <trans-unit id="Codeunit 324445704 - Method 1148960746 - NamedType 1021376219" size-unit="char" translate="yes" xml:space="preserve">
           <source>With Producto Preferido Extension you can add a Fav Item in this customer!</source>
           <note from="Developer" annotates="general" priority="2">ESP="Con la extensión Producto Preferido, ahora puedes añadir un producto preferido en este cliente!"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Event Subscriptions - Method ShowNotification - NamedType MensajeNotificacion</note>
+          <target>Con la extensión Producto Preferido, ahora puedes añadir un producto preferido en este cliente!</target>
         </trans-unit>
         <trans-unit id="Codeunit 324445704 - Method 1148960746 - NamedType 2383671288" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show Assisted Setup</source>
           <note from="Developer" annotates="general" priority="2">ESP="Mostrar Configuración Asistida"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Event Subscriptions - Method ShowNotification - NamedType ActionNotificacion</note>
+          <target>Mostrar Configuración Asistida</target>
         </trans-unit>
         <trans-unit id="Page 1223086654 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Producto Preferido - Setup</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Producto Preferido - Setup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1223086654 - Control 530411744 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
           <source>Congratulations! You are finish the Fav Item Setup demo. Now you can add Fav Items in all yours customers.</source>
           <note from="Developer" annotates="general" priority="2">ESP="Felicitaciones! Terminaste la demo para configurar un Producto Preferido. Ahora puedes añadir Productos Preferidos para todos tus Clientes."</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Producto Preferido - Setup - Control FINAL - Property InstructionalText</note>
+          <target>Felicitaciones! Terminaste la demo para configurar un Producto Preferido. Ahora puedes añadir Productos Preferidos para todos tus Clientes.</target>
         </trans-unit>
         <trans-unit id="Page 1223086654 - Control 406917336 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source></source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <source/>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Producto Preferido - Setup - Control MediaDone - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1223086654 - Control 2332231641 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source></source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <source/>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Producto Preferido - Setup - Control MediaStandard - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1223086654 - Control 4176207104 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
           <source>Welcome!</source>
           <note from="Developer" annotates="general" priority="2">ESP="Bienvenido! Ha instalado la extensión Producto Preferido. Con esta extensión usted puede configurar un producto preferido para cada cliente que tenga en su empresa.\ \"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Producto Preferido - Setup - Control PASO 1 - Property InstructionalText</note>
+          <target>Bienvenido! Ha instalado la extensión Producto Preferido. Con esta extensión usted puede configurar un producto preferido para cada cliente que tenga en su empresa.\ \</target>
         </trans-unit>
         <trans-unit id="Page 1223086654 - Control 518936425 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup the Fav Item on Customer Card.\In the next field, choose a Customer and set a Fav Item for this.</source>
           <note from="Developer" annotates="general" priority="2">ESP="Configure el Producto Preferido en la ficha del cliente"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Producto Preferido - Setup - Control PASO 2 - Property InstructionalText</note>
+          <target>Configure el Producto Preferido en la ficha del cliente</target>
         </trans-unit>
         <trans-unit id="Page 1223086654 - Action 3747271888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Finish</source>
           <note from="Developer" annotates="general" priority="2">ESP="Finalizar"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Producto Preferido - Setup - Action Finalizar - Property Caption</note>
+          <target>Finalizar</target>
         </trans-unit>
         <trans-unit id="Page 1223086654 - Action 3812909286 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Back</source>
           <note from="Developer" annotates="general" priority="2">ESP="Atrás"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Producto Preferido - Setup - Action PasoPrevio - Property Caption</note>
+          <target>Atrás</target>
         </trans-unit>
         <trans-unit id="Page 1223086654 - Action 381323682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Next</source>
           <note from="Developer" annotates="general" priority="2">ESP="Siguiente"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Producto Preferido - Setup - Action PasoSiguiente - Property Caption</note>
+          <target>Siguiente</target>
         </trans-unit>
         <trans-unit id="PageExtension 1372775903 - Control 3860904564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Fav Item</source>
           <note from="Developer" annotates="general" priority="2">ESP="Producto Preferido"</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cliente Extension - Control Producto Preferido - Property Caption</note>
+          <target>Producto Preferido</target>
         </trans-unit>
         <trans-unit id="TableExtension 2049266804 - Field 3860904564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Producto Preferido</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Cliente Extendido - Field Producto Preferido - Property Caption</note>
         </trans-unit>
       </group>
