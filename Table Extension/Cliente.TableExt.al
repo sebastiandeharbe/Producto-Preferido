@@ -9,18 +9,29 @@ tableextension 50000 "Cliente Extendido" extends Customer
             DataClassification = CustomerContent;
 
             trigger OnValidate()
-            var
-            // RecItem: Record Item;
             begin
-                // RecItem.Get(Rec."Producto Preferido");
-                // Message('Se añadió un Producto Preferido');
 
                 if xRec."Producto Preferido" <> Rec."Producto Preferido" then
-                    if Confirm('¿Desea confirmar el Nuevo Producto Preferido?') then
+                    if Confirm('¿Desea confirmar el Nuevo Producto Preferido?') then begin
+                        Item.Reset();
+                        Item.SetRange("No.", Rec."Producto Preferido");
+                        if Item.FindFirst() then begin
+                            "Nombre Producto Preferido" := Item.Description;
+                            Rec.Modify(true);
+                        end;
                         Message('Se añadió un Producto Preferido');
+                    end;
 
                 //comentario de prueba
             end;
         }
+        field(50001; "Nombre Producto Preferido"; Text[100])
+        {
+            DataClassification = CustomerContent;
+        }
     }
+
+    var
+        Item: Record Item;
+
 }

@@ -66,11 +66,22 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Producto Preferido - Setup - Action PasoSiguiente - Property Caption</note>
           <target>Siguiente</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1372775903 - Control 4273439403 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Fav Item Description</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Nombre Prod. Preferido"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cliente Extension - Control Nombre Producto Preferido - Property Caption</note>
+          <target>Nombre Prod. Preferido</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1372775903 - Control 3860904564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Fav Item</source>
           <note from="Developer" annotates="general" priority="2">ESP="Producto Preferido"</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cliente Extension - Control Producto Preferido - Property Caption</note>
           <target>Producto Preferido</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2049266804 - Field 4273439403 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Nombre Producto Preferido</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Cliente Extendido - Field Nombre Producto Preferido - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2049266804 - Field 3860904564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Producto Preferido</source>
