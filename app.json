@@ -8,22 +8,21 @@
   "privacyStatement": "",
   "EULA": "",
   "help": "",
-  "url": "",
-  "logo": "",
+  "url": "https://hashnode.com/@sebasdeharbe",
+  "logo": "./seba_logo.png",
   "dependencies": [
 
   ],
   "screenshots": [],
-  "platform": "20.0.0.0",
-  "application": "20.0.0.0",
+  "platform": "21.0.0.0",
+  "application": "21.0.0.0",
   "idRanges": [
     {
       "from": 50000,
       "to": 50050
     }
   ],
-  "showMyCode": true,
-  "runtime": "7.0",
+  "runtime": "10.0",
   "features": [
     "NoImplicitWith",
     "TranslationFile"
